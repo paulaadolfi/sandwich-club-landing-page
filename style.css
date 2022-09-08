@@ -1,0 +1,404 @@
+*{
+	box-sizing: border-box;
+	max-width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "Roboto";
+	font-size: 13px;
+
+}
+a{
+	display: inline-block;
+}
+p{
+	color: black;
+}
+header
+{
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	background-color: white; 
+}
+header .container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .container .logo {
+	width: 80px;
+}
+header .container nav a {
+	color: #84bcb4;
+	text-decoration: none;
+	margin: 0 15px;
+}
+footer {
+	background-color: #84bcb4;
+	color: white;
+	padding-bottom: 0;
+	padding-top: 30px; 
+}
+footer .barra-footer {
+	background-color: grey;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+footer .logo-footer {
+	width: 40%;
+	margin-left: 30%;
+}
+footer .redes {
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+footer .redes a
+{
+	margin:0 7.5px;
+}
+footer ul
+{
+	padding-left: 0;
+	list-style: none;
+
+}
+footer ul li
+{
+	
+	margin-bottom: 15px;
+}
+footer p
+{
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+	width: 60%;
+}
+footer a
+{
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.boton
+{
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 20px;
+	border: none;
+}
+.boton.boton-gris
+{
+	color: white;
+	background-color: grey;
+	font-size: 20px;
+	font-weight: bold;
+}
+.boton.boton-gris:hover 
+{
+	color: black;
+	background-color: white;
+}
+
+.seccion
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 30px;
+}
+.cuadrado-perfecto
+{
+	width: 100%;
+	padding-bottom: 100%;
+	position: relative;
+}
+.cuadrado-perfecto img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+.container
+{
+	width: 1140px;
+	max-width: 100%;
+	margin: 0 auto 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.container-fluid
+{
+	width: 100%
+	padding-right 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.columna
+{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.columna-33
+{
+	width: 33.33%;
+}
+#inicio
+{
+	position: relative;
+}
+#inicio img
+{
+	width: 100%;
+	display: block;
+	height: auto;
+}
+#inicio .bloque-inicio
+{
+	position: absolute;
+	top: 55%;
+	left: 20px;
+	width: 400px;
+	text-align: center;
+	
+}
+#inicio .bloque-inicio h1
+{
+	color: #649b93;
+	font-size: 60px;
+	-webkit-text-stroke: 1px #d4eae7;
+
+}
+#inicio .bloque-inicio h2
+{
+	color: #d4eae7 ;
+	font-size: 30px;
+	margin-top: 60px;
+	
+}
+#nosotros
+{
+	background-image: url(https://st4.depositphotos.com/2619031/31538/i/600/depositphotos_315385446-stock-photo-young-people-dining-and-having.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+}	
+#nosotros p
+{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	margin-top: 5%;
+}
+#nosotros .foodtruck
+{
+	font-size: 30px;
+ }
+#servicios .bloque-servicio
+{
+	border: 5px solid #84bcb4;
+	height: 350px;
+}
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
+{
+	padding-bottom: 56.25%	
+}
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+	width: 100%;
+}
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+	padding: 15px;
+}
+#servicios .bloque-servicio .bloque-contenido-servicio h3, a
+{
+	margin-top: 0;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#servicios a: hover {
+	color: #84bcb4;
+	font-weight: bold;
+}
+#recetas iframe {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 30px;
+}
+#recetas  p {
+	font-size: 30px;
+	text-align: center;
+	color: #84bcb4;
+}
+#contactenos
+{
+	position: relative;
+}
+#contactenos img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+#contactenos form
+{
+	width: 50%;
+	padding: 30px 60px;
+	background-color: #84bcb4;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contactenos form  .form-block
+{
+	width: 100%;
+	margin-bottom: 15px;
+}
+#contactenos form  .form-block .form-control
+{
+	display: block;
+	height: 40px;
+	font-size: 16px;
+	border: 1px solid gray;
+	width: 100%;
+	padding: 5px 10px;
+}
+#contactenos p {
+	font-size: 25px; 
+	text-align: center;
+	color: white;
+}
+#contactenos form  .form-block textarea
+{
+	display: block;
+	height: 100px;
+	font-size: 16px;
+	border: 1px solid gray;
+	width: 100%;
+	padding: 5px 10px;
+}
+#contactenos form  .form-block.bloque-ultimo
+{
+	margin-bottom: 0;
+}
+
+@media(max-width: 767px)
+{
+	body
+	{
+		font-size: 15px;
+	}	
+	header .container nav
+	{
+		width: 70%;
+		height: 10%;
+	}
+	header .container nav a
+	{
+		max-width: 700px;
+		font-size: 12px;
+	}
+	form .boton.boton-gris
+	{
+		width: 100%;
+	}
+	footer
+	{
+		text-align: center;
+	}
+	footer .logo-footer
+	{
+		width: 20vh;
+		position: relative;
+		margin-left: 0;
+	}
+	footer .redes
+	{
+		justify-content: center;
+	}
+	
+	.container
+	{
+		width: 100%;
+	}
+
+	.columna-mobile-100
+	{
+		width: 100%;
+	}
+	#inicio
+	{
+		height: 100vh;
+	}
+	#inicio img
+	{
+		height: 100%;
+		object-fit: cover;
+		object-position: center;	
+	}
+	#inicio .bloque-inicio
+	{
+		position: absolute;
+		text-align: center;
+	}
+	#inicio .bloque-inicio h1
+	{
+		margin-top: 0;
+		padding-top: 0;
+	}
+	#inicio .bloque-inicio h2
+	{
+		color: #d4eae7 ;
+		font-size: 30px;
+		margin-top: 60px;
+	}
+	#servicios .bloque-servicio
+	{
+		margin-bottom: 15px; 
+	}
+	#contactenos img
+	{
+		object-fit: cover;
+	}
+	#contactenos form
+	{
+		width: 90%;
+	}
+	#recetas iframe
+	{
+		width: 90%;
+		margin-left:5%;
+	}
+}
